@@ -1,0 +1,290 @@
+/**
+ * cuti-style.css
+ * CSS khusus untuk optimasi tampilan halaman cuti
+ */
+
+/* Penyesuaian khusus untuk komponen di halaman cuti */
+.cuti-form .card-header {
+  padding: 0.6rem 0.75rem;
+}
+
+.cuti-form .form-label {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Penyesuaian untuk tampilan kartu kecil */
+.card.bg-gradient-success,
+.card.bg-gradient-warning,
+.card.bg-gradient-danger,
+.card.bg-gradient-primary {
+  margin-bottom: 0.75rem;
+}
+
+.card.bg-gradient-success h3,
+.card.bg-gradient-warning h3,
+.card.bg-gradient-danger h3,
+.card.bg-gradient-primary h3 {
+  font-size: 1.35rem;
+}
+
+.card.bg-gradient-success h6,
+.card.bg-gradient-warning h6,
+.card.bg-gradient-danger h6,
+.card.bg-gradient-primary h6 {
+  font-size: 0.8rem;
+}
+
+.icon-box {
+  width: 36px !important;
+  height: 36px !important;
+  padding: 0.4rem !important;
+}
+
+/* Tabel cuti */
+#cutiTable th,
+#cutiTable td {
+  padding: 0.3rem 0.4rem;
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+
+/* Badge yang lebih kecil */
+.badge {
+  font-size: 65%;
+  padding: 0.2em 0.4em;
+  font-weight: normal;
+}
+
+/* Tombol dropdown */
+.dropdown-toggle {
+  padding: 0.2rem 0.4rem;
+}
+
+.dropdown-menu {
+  font-size: 0.85rem;
+}
+
+.dropdown-item {
+  padding: 0.4rem 0.75rem;
+}
+
+/* Filter section */
+#filterCollapse .form-label {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+
+#filterCollapse .form-select,
+#filterCollapse .form-control {
+  font-size: 0.85rem;
+  padding: 0.3rem 0.5rem;
+}
+
+/* Alert yang lebih ringkas */
+.alert {
+  padding: 0.6rem 0.75rem;
+}
+
+/* Modal yang lebih ringkas */
+.modal-title {
+  font-size: 1rem;
+}
+
+.modal-body p {
+  font-size: 0.9rem;
+}
+
+/* Jarak antar elemen dalam konten */
+.content-wrapper .my-4 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.content-wrapper .mb-4 {
+  margin-bottom: 1rem !important;
+}
+
+.content-wrapper .mt-4 {
+  margin-top: 1rem !important;
+}
+
+/* Status badge yang lebih ringkas */
+.badge.bg-warning.bg-opacity-10,
+.badge.bg-success.bg-opacity-10,
+.badge.bg-danger.bg-opacity-10,
+.badge.bg-primary.bg-opacity-10,
+.badge.bg-info.bg-opacity-10,
+.badge.bg-secondary.bg-opacity-10 {
+  font-size: 0.7rem;
+  padding: 0.15em 0.4em;
+  white-space: nowrap;
+  border-width: 1px !important;
+}
+
+/* Pagination yang lebih kecil */
+.pagination .page-link {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
+
+.pagination {
+  margin-bottom: 0;
+}
+
+/* Ubah ukuran container pada content-wrapper */
+.container-fluid {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+/* Menyesuaikan tampilan khusus untuk halaman cuti monitoring */
+.bg-light .rounded p-3 {
+  padding: 0.5rem !important;
+}
+
+/* Penyesuaian untuk card show cuti */
+.card-body p-4 {
+  padding: 1rem !important;
+}
+
+/* Pengaturan ukuran avatar */
+.rounded-circle.d-flex.align-items-center.justify-content-center {
+  width: 38px;
+  height: 38px;
+  font-size: 0.9rem;
+}
+
+/* Mengurangi jarak pada text */
+.fw-bold.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+/* Adjust batch actions bar */
+#batch-actions {
+  padding: 0.5rem 0.75rem;
+}
+
+/* Optimasi tampilan kartu rounded corners */
+.rounded-4 {
+  border-radius: 0.5rem !important;
+}
+
+/* Mengoptimalkan teks kecil */
+.small, small {
+  font-size: 80%;
+}
+
+/* Memperkecil footer pagination */
+.px-4.py-3.d-flex.justify-content-between.align-items-center.border-top {
+  padding: 0.5rem 0.75rem !important;
+}
+
+/* Memperkecil icon FA */
+.fas, .far, .fa, .fab {
+  font-size: 0.85em;
+}
+
+/* Compact table styles */
+#cutiTable .fw-medium {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+#cutiTable .small {
+  font-size: 70%;
+  line-height: 1.2;
+  margin-top: 0.1rem;
+}
+
+/* Compact action buttons */
+.action-dropdown .dropdown-toggle {
+  padding: 0.15rem 0.3rem;
+  font-size: 0.75rem;
+}
+
+/* Compact employee info */
+#cutiTable td .d-flex {
+  gap: 0.3rem !important;
+}
+
+/* Compact table header */
+.card-header.bg-white.py-3 {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+/* Compact action column */
+.action-column {
+  width: 40px !important;
+}
+
+/* Membuat form control lebih compact */
+.form-control, .form-select {
+  min-height: auto;
+}
+
+/* Memperkecil row dan col gaps */
+.g-3 > *,
+.gy-3 > * {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.g-3,
+.gx-3 {
+  margin-right: -0.6rem;
+  margin-left: -0.6rem;
+}
+
+.g-3 > *,
+.gx-3 > * {
+  padding-right: 0.6rem;
+  padding-left: 0.6rem;
+}
+
+/* Mengoptimalkan tampilan teks */
+p {
+  margin-bottom: 0.75rem;
+}
+
+/* Mengoptimalkan jarak tombol */
+.d-flex.gap-2 {
+  gap: 0.5rem !important;
+}
+
+/* Compact transportasi table */
+.table-hover th,
+.table-hover td {
+  padding: 0.3rem 0.4rem !important;
+  font-size: 0.8rem !important;
+  vertical-align: middle !important;
+}
+
+.table-hover .fw-medium {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.table-hover .small {
+  font-size: 70%;
+  line-height: 1.2;
+  margin-top: 0.1rem;
+}
+
+.table-hover .avatar {
+  width: 32px !important;
+  height: 32px !important;
+  font-size: 0.8rem !important;
+}
+
+.table-hover .btn-sm {
+  padding: 0.15rem 0.3rem !important;
+  font-size: 0.75rem !important;
+}
+
+.table-hover .badge.rounded-pill {
+  padding: 0.15em 0.5em !important;
+  font-size: 0.7rem !important;
+}

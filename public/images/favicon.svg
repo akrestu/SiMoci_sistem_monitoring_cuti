@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- Background shape -->
+  <rect x="0" y="0" width="32" height="32" rx="6" fill="#222222"/>
+  
+  <!-- Calendar icon -->
+  <rect x="6" y="8" width="20" height="18" rx="2" fill="#3498db" />
+  <rect x="10" y="4" width="3" height="6" rx="1" fill="#ffffff" />
+  <rect x="19" y="4" width="3" height="6" rx="1" fill="#ffffff" />
+  <line x1="6" y1="14" x2="26" y2="14" stroke="#ffffff" stroke-width="1" />
+  
+  <!-- Checkmark -->
+  <path d="M12 19 L16 23 L21 14" stroke="#ffffff" stroke-width="2" fill="none" />
+</svg> 
